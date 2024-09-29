@@ -10,7 +10,6 @@ body {
 }
 
 /* Navbar Section */
-/* Navbar Section */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -295,26 +294,27 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  
+
 }
 
 .slide:nth-child(2) {
   background-image: url("https://i.pinimg.com/originals/1a/ee/5c/1aee5c344846f449350feae457ea350e.jpg");
   display: flex;
-  align-items: flex; 
+  align-items: flex;
   padding: 60px;
 }
 
 
-.slide:nth-child(2) h1, 
-.slide:nth-child(2) p, 
+.slide:nth-child(2) h1,
+.slide:nth-child(2) p,
 .slide:nth-child(2) button {
-  text-align: left; 
+  text-align: left;
   margin-left: 250px;
 }
+
 .slide:nth-child(2) .content {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .text {
@@ -405,23 +405,27 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: relative; 
-  height: 100px; 
+  position: relative;
+  height: 100px;
   overflow: hidden;
 }
 
 .text-container {
-  opacity: 0; 
-  position: absolute; 
-  animation: fadeInOut 9s ease-in-out infinite; 
+  opacity: 0;
+  position: absolute;
+  animation: fadeInOut 9s ease-in-out infinite;
 }
 
 @keyframes fadeInOut {
-  0%, 20% {
-      opacity: 1; 
+
+  0%,
+  20% {
+    opacity: 1;
   }
-  25%, 95% {
-      opacity: 0; 
+
+  25%,
+  95% {
+    opacity: 0;
   }
 }
 
@@ -430,11 +434,11 @@ body {
 }
 
 .second {
-  animation-delay: 3s; 
+  animation-delay: 3s;
 }
 
 .third {
-  animation-delay: 6s; 
+  animation-delay: 6s;
 }
 
 .promo-left h2,
