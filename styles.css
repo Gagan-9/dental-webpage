@@ -9,7 +9,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Navbar Section */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,7 +41,6 @@ body {
   margin-top: -5px;
 }
 
-/* Navigation Links */
 .nav-links {
   list-style-type: none;
   display: flex;
@@ -69,7 +67,6 @@ body {
 }
 
 
-/* Dropdown Menu */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -105,7 +102,6 @@ body {
   display: block;
 }
 
-/* Need Help Button */
 .need-help-btn {
   display: block;
   text-align: center;
@@ -123,7 +119,6 @@ body {
   background-color: #d7711b;
 }
 
-/* Action Buttons */
 .action-buttons {
   display: flex;
   align-items: center;
@@ -187,7 +182,6 @@ body {
 .help-btn-container .dropdown-content li a .right-text {
   margin-left: auto;
 }
-
 
 .slider-container {
   width: 100%;
@@ -287,14 +281,12 @@ body {
 .image-section {
   max-width: 40%;
   display: flex;
-
 }
 
 .image-section img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-
 }
 
 .slide:nth-child(2) {
@@ -303,7 +295,6 @@ body {
   align-items: flex;
   padding: 60px;
 }
-
 
 .slide:nth-child(2) h1,
 .slide:nth-child(2) p,
@@ -344,7 +335,6 @@ body {
   text-align-last: right;
 }
 
-
 .slide:nth-child(2) button {
   background-color: var(--button-bg-color, #f2853e);
   color: var(--button-text-color, white);
@@ -367,7 +357,6 @@ body {
   margin-top: 70px;
   border-radius: 8px;
 }
-
 
 @keyframes slideAnimation {
   0% {
@@ -417,12 +406,10 @@ body {
 }
 
 @keyframes fadeInOut {
-
   0%,
   20% {
     opacity: 1;
   }
-
   25%,
   95% {
     opacity: 0;
@@ -462,7 +449,6 @@ body {
   color: #555;
   margin-top: 0.5rem;
 }
-
 
 .promo-center {
   display: flex;
@@ -533,11 +519,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.locate-btn:hover {
-  background-color: #d97330;
-  /* Darken on hover */
-}
-
 .issues {
   width: 100%;
   max-width: 1300px;
@@ -578,14 +559,12 @@ p {
   justify-content: center;
 }
 
-
 .service-item i {
   font-size: 40px;
   color: #f6d18d;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Cards container layout */
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -599,7 +578,6 @@ p {
   text-align: center;
 }
 
-/* Left column - Card 1 */
 .card-1 {
   background-color: #fff6f2;
   border-radius: 20px;
@@ -622,9 +600,8 @@ p {
 .align-text {
   display: inline-block;
   text-align: left;
-  width: 100%;/
+  width: 100%;
 }
-
 
 .card-1 label {
   display: block;
@@ -671,21 +648,14 @@ p {
   border-radius: 30px;
   cursor: pointer;
   margin-top: 20px;
-  transition: background-color 0.3s ease;
 }
 
-.card-1 button:hover {
-  background-color: #e57e30;
-}
-
-/* Right column */
 .right-column {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Card 2 - Right column top */
 .card-2 {
   height: auto;
   display: grid;
@@ -760,7 +730,6 @@ p {
   z-index: -1;
 }
 
-/* Bottom row - Cards 3 and 4 */
 .bottom-row {
   display: flex;
   gap: 20px;
@@ -797,7 +766,6 @@ p {
   margin: 10px 0 20px 0;
 }
 
-/* CSS Clinic Icon */
 .card-3 .icon,
 .card-4 .icon {
   width: 80px;
@@ -868,17 +836,13 @@ p {
   padding: 12px 25px;
   color: brown;
   text-decoration: none;
-  /* Remove default underline */
   font-weight: bold;
   font-size: 1.2em;
   display: inline-block;
   position: relative;
-  /* Position for the pseudo-element */
   text-align: center;
-  /* Center text within the link */
 }
 
-/* Adding an underline */
 .explore-link::after {
   content: '';
   display: block;
@@ -895,8 +859,6 @@ p {
   color: orange;
   margin: 0 5px;
 }
-
-
 
 .scrolling-strip {
   margin-bottom: 50px;
@@ -958,6 +920,7 @@ footer .footer-container {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer h3 {
@@ -988,6 +951,7 @@ footer ul li a:hover {
 footer .social-icons {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
 footer .social-icons a {
@@ -1000,7 +964,6 @@ footer .social-icons a {
 footer .social-icons a:hover {
   color: #f47735;
 }
-
 .faq-section {
   max-width: 1200px;
   margin: 50px auto;
@@ -1128,7 +1091,6 @@ img {
   animation: slide 10s linear infinite;
 }
 
-/* Slider inside the card */
 .img-slider-container {
   width: 100%;
   overflow: hidden;
@@ -1166,7 +1128,6 @@ img {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
-
 
 .three-card {
   flex: 0 0 70%;
@@ -1228,12 +1189,12 @@ img {
   object-fit: cover;
 }
 
-.card-container::-webkit-scrollbar {
+.three-card-container::-webkit-scrollbar {
   display: none;
 }
 
 .blog-container {
-  padding: 100px;
+  padding: 50px;
   margin-top: 50px;
   background-color: #f4e8e8;
   width: 100%;
@@ -1243,7 +1204,7 @@ img {
 }
 
 .blog-container h1 {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -1309,14 +1270,11 @@ img {
 .post-header {
   display: flex;
   flex-direction: column;
-  /* Stack elements vertically */
   align-items: flex-start;
-  /* Align items to the start (left) */
 }
 
 .blog-container h3 {
-  font-size: 1.0em;
-
+  font-size: 1em;
 }
 
 .blog-container p {
@@ -1324,26 +1282,44 @@ img {
   font-size: 0.9em;
   color: gray;
 }
+/* Media Queries for Responsiveness */
 
+/* Large Devices (desktops, 1200px and below) */
+@media (max-width: 1200px) {
+  .text-section h1 {
+    font-size: 3rem;
+  }
+  
+  .text-section p, 
+  .slide .book-appointment-btn {
+    font-size: 1rem;
+  }
+  
+  .promo-section {
+    margin: 0 50px;
+    padding: 20px;
+  }
 
+  .promo-left h2 {
+    font-size: 1.8rem;
+  }
 
-@media (max-width: 768px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .promo-left p {
+    font-size: 1rem;
+  }
+
+  .rating-details .star {
+    font-size: 1.3rem;
+  }
+
+  .location-dropdown select,
+  .locate-btn {
+    width: 250px;
+    height: 45px;
   }
 }
 
-@media (max-width: 480px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: 18px;
-  }
-}
-
-/* Responsive Design */
+/* Tablets (768px and below) */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -1352,9 +1328,7 @@ img {
   .navbar {
     flex-direction: column;
   }
-}
-
-@media (max-width: 768px) {
+  
   .slide-content {
     flex-direction: column;
     text-align: center;
@@ -1367,4 +1341,248 @@ img {
   .image-section {
     display: none;
   }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .promo-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 30px;
+  }
+
+  .promo-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .promo-center {
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .google-rating img {
+    width: 70px;
+  }
+
+  .promo-right {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .location-dropdown select,
+  .locate-btn {
+    width: 100%;
+  }
+  
+  /* Blog Section */
+  .blog-post {
+    width: calc(100% - 20px); /* Full width for blog posts */
+    margin-bottom: 40px;
+  }
+
+  .blog-post img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .blog-container h1 {
+    font-size: 1.5rem; /* Smaller header for mobile */
+  }
+
+  .blog-container nav ul li a {
+    font-size: 1em;
+  }
+
+  .blog-container h3 {
+    font-size: 0.9em;
+  }
+
+  .blog-container p {
+    font-size: 0.85em;
+  }
+
+  /* Three-Card Section */
+  .three-card {
+    flex: 0 0 90%; /* Increase the width */
+    height: 350px;
+  }
+
+  .three-card-content h1 {
+    font-size: 28px; /* Adjust font size */
+  }
+
+  .three-card-content {
+    top: 20px;
+    left: 20px;
+    max-width: 250px;
+  }
+
+  .three-card-content p {
+    font-size: 12px;
+  }
+
+  .three-card-content hr {
+    width: 60px;
+  }
+
+  .three-card-content .learn-more {
+    font-size: 14px;
+  }
+
+  /* Slide Section */
+  .text-section h1 {
+    font-size: 2.5rem; /* Reduce font size */
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+  }
+  
+  .image-section {
+    display: none; /* Hide image */
+  }
+  
+  .text {
+    max-width: 100%; /* Full width text */
+  }
+  
+  .slide:nth-child(2) img {
+    display: none; /* Hide background images */
+  }
+
+  /* Cards Container */
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+    margin: 20px;
+  }
 }
+
+/* Small Devices (480px and below) */
+@media (max-width: 480px) {
+  .promo-section {
+    margin: 0 15px;
+    padding: 15px;
+  }
+
+  .promo-left h2 {
+    font-size: 1.5rem;
+  }
+
+  .promo-left p {
+    font-size: 0.9rem;
+  }
+
+  .google-rating img {
+    width: 60px;
+  }
+
+  .location-dropdown select,
+  .locate-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .rating-details {
+    font-size: 1rem;
+  }
+  .bottom-row {
+    flex-direction: column;
+  }
+  
+  footer {
+    padding: 30px 0;
+  }
+
+  footer .footer-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  footer h3 {
+    font-size: 15px;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+  }
+  
+  footer .social-icons {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  /* Blog Section */
+  .blog-post {
+    width: 100%;
+    flex-direction: column; /* Stack vertically */
+    align-items: flex-start;
+  }
+
+  .blog-post img {
+    width: 100%; /* Full-width image */
+    margin: 0 0 10px 0;
+    height: auto;
+  }
+
+  .blog-container nav ul {
+    flex-direction: column; /* Stack nav links vertically */
+    align-items: flex-start;
+  }
+
+  .blog-container nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .blog-container nav ul li a {
+    font-size: 0.9em;
+  }
+
+  /* Three-Card Section */
+  .three-card {
+    flex: 0 0 100%; /* Full width */
+    height: 300px;
+  }
+
+  .three-card-content h1 {
+    font-size: 24px;
+  }
+
+  .three-card-content {
+    top: 10px;
+    left: 10px;
+    max-width: 200px;
+  }
+
+  .three-card-content p {
+    font-size: 11px;
+  }
+
+  .three-card-content hr {
+    width: 50px;
+  }
+
+  .three-card-content .learn-more {
+    font-size: 12px;
+  }
+
+  /* Slide Section */
+  .text-section h1 {
+    font-size: 2rem; /* Reduce font size */
+  }
+  
+  .text-section p {
+    font-size: 0.9rem;
+  }
+  
+  .slide .book-appointment-btn {
+    font-size: 1rem;
+    padding: 10px 20px; /* Adjust button size */
+  }
+}
+
+
